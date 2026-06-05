@@ -1,0 +1,16 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+
+# Build artifacts
+images.json
+*.log
+
+# Internal / not for public deployment (would be world-readable on GitHub Pages)
+client-brief.md
+content-checklist.html
+
+# Dependencies (none expected for a static site, but just in case)
+node_modules/
